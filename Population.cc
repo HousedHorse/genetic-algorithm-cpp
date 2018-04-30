@@ -54,7 +54,7 @@ void Population::evolve(string target, bool verbose = false){
   generation = 0;
 
   if(verbose){
-    cout << "Preparing the evolve..." << endl;
+    cout << "Preparing to evolve..." << endl;
     cout << "Target = " << target << endl;
     cout << "Press any key to continue..." << endl;
     cin.get();
