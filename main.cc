@@ -8,7 +8,7 @@ using namespace std;
 int main(){
   srand(time(NULL));
 
-  Population p(50000, 20);
+  Population p(10000, 10);
   cout << p << endl;
 
   string s = "Hi, this is a test string we want to find with the genetic algorithm.";

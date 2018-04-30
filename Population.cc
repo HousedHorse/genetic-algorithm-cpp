@@ -10,7 +10,7 @@ int Population::newId = 1;
 
 Population::Population() : Population(0) {}
 
-Population::Population(int _size) : Population(_size,10) {}
+Population::Population(int _size) : Population(_size,1) {}
 
 Population::Population(int _size, int _mr) : size(_size), generation(0), id(newId++),
   mutationRate(_mr){
